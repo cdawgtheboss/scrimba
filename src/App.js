@@ -1,14 +1,34 @@
 import React from 'react'
 import Joke from './components/joke'
 
-const App = (props) => {
+const spanStyle = {
+  margin: 5,
+  color: 'red'
+}
+
+const App = () => {
   return(
     <div>
-      <Joke question="Setup" punchline="Payoff" />
-      <Joke question="Setup" punchline="Payoff" />
-      <Joke question="Setup" punchline="Payoff" />
-      <Joke question="Setup" punchline="Payoff" />
-      <Joke question="Setup" punchline="Payoff" />
+      <Joke 
+        style={spanStyle}
+        question= "Setup" 
+        punchline= "Payoff" />
+      <Joke
+        style= {spanStyle}
+        question= "Setup" 
+        punchline= "Payoff" />
+      <Joke 
+        style= {spanStyle}
+        question= "Setup" 
+        punchline= "Payoff" />
+      <Joke 
+        style= {spanStyle}
+        question= "Setup" 
+        punchline= "Payoff" />
+      <Joke 
+        style= {spanStyle}
+        question= "Setup" 
+        punchline= "Payoff" />
     </div>
   )
 }

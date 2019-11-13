@@ -1,11 +1,10 @@
 import React from 'react';
 
 const Joke = (props) => {
-  console.log(props)
   return (
     <div>
-    <p>{props.question}</p>
-    <p>{props.punchline}</p>
+    <span>{props.question}</span>
+    <span>{props.punchline}</span>
     </div>
   )
 }
