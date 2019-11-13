@@ -3,8 +3,8 @@ import React from 'react';
 const Joke = (props) => {
   return (
     <div>
-    <span>{props.question}</span>
-    <span>{props.punchline}</span>
+    <h1>{props.question}</h1>
+    <p>{props.punchline}</p>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import Joke from './components/joke'
 
-const spanStyle = {
+const style = {
   margin: 5,
   color: 'red'
 }
@@ -10,23 +10,23 @@ const App = () => {
   return(
     <div>
       <Joke 
-        style={spanStyle}
+        style={style}
         question= "Setup" 
         punchline= "Payoff" />
       <Joke
-        style= {spanStyle}
+        style= {style}
         question= "Setup" 
         punchline= "Payoff" />
       <Joke 
-        style= {spanStyle}
+        style= {style}
         question= "Setup" 
         punchline= "Payoff" />
       <Joke 
-        style= {spanStyle}
+        style= {style}
         question= "Setup" 
         punchline= "Payoff" />
       <Joke 
-        style= {spanStyle}
+        style= {style}
         question= "Setup" 
         punchline= "Payoff" />
     </div>
