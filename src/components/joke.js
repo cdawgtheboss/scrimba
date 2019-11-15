@@ -1,10 +1,20 @@
-import React from 'react';
+import React from 'react'
 
-const Joke = (props) => {
+const Joke = (props) =>{
   return (
     <div>
-    <h1>{props.question}</h1>
-    <p>{props.punchline}</p>
+      {props.question && 
+      <>
+      <h3>Question: {props.question}</h3>
+      <h3>Answer: {props.punchline} </h3>
+      </>
+      }
+      {!props.question &&
+      <>
+      <h3>Answer :{props.punchline} </h3>
+      </>
+      }
+      
     </div>
   )
 }
